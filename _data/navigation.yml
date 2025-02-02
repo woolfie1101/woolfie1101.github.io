@@ -1,0 +1,77 @@
+# main links
+main:
+  - title: "Category"
+    url: /categories/  #카테고리
+  - title: "Tags"
+    url: /tags/   #태그
+  - title: "Search"
+    url: /search   #검색
+
+sidebar-category:
+  - title: "Develop"
+    children:
+      - title: "Java"
+        url: "/java"
+        category: "java"
+      - title: "Spring"
+        url: "/spring"
+        category: "spring"
+      - title: "Docker"
+        url: "/docker"
+        category: "docker"
+      - title: "DB"
+        url: "/db"
+        category: "db"
+      - title: "JPA"
+        url: "/jpa"
+        category: "jpa"
+      - title: "Spring Security"
+        url: "/spring-security"
+        category: "spring-security"
+  - title: "Project"
+    children:
+      - title: "Project"
+        url: "/project"
+        category: "project"
+  - title: "Algorithm"
+    children: 
+      - title: "Data structure"
+        url: "/data-structure"
+        category: "data-structure"
+      - title: "Python"
+        url: "/python"
+        category: "python"
+      - title: "Algorithm[JAVA]"
+        url: "/algorithm"
+        category: "algorithm"
+  - title: "Ruby/Jekyll/minimal-mistakes"
+    children:
+      - title: "Blog"
+        url: "/blog"
+        category: "blog"
+  - title: "etc"
+    children:
+      - title: "program"
+        url: "/program"
+        category: "program"
+      - title: "etc"
+        url: "/etc"
+        category: "etc"
+
+
+# docs:   #목차
+#   - title: "CODING"
+#     children:
+#       - title: "java"
+#         url: /java/
+#       - title: "project"
+#         url: /project/
+#   - title: "일기"
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

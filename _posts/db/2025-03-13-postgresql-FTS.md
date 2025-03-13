@@ -12,8 +12,6 @@ sidebar:
   nav: "sidebar-category" #navigation.yml에 있는 docs를 뜻한다.
 search: true  #이 페이지는 검색에 나옴.
 ---
-# PostgreSQL 전문 검색 Part 1
-
 
 필자가 다니는 회사에서 가장 많이 사용하는 데이터베이스 관리 시스템은 PostgreSQL이다.
 

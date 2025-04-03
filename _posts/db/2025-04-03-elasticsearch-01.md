@@ -31,6 +31,7 @@ PostgreSQL FTS는 기본적으로 `to_tsvector`와 `to_tsquery`를 통해 텍스
 ---
 
 ### **1) Elasticsearch란?**
+
 | 항목   | 설명 |
 |--------|------|
 | **종류** | 오픈소스 검색 엔진 (Apache Lucene 기반) |

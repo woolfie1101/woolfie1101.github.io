@@ -12,7 +12,7 @@ sidebar:
 search: true  #이 페이지는 검색에 나옴.
 ---
 
-[구글 콘솔 설정](https://woolfiekim.github.io/spring/googleoauth2/)을 끝냈다.
+[구글 콘솔 설정](https://woolfie1101.github.io/spring/googleoauth2/)을 끝냈다.
 
 이제 스프링 설정을 해보겠다. 
 

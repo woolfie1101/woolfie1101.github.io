@@ -21,9 +21,9 @@ title_separator          : "|"
 subtitle                 : "Programming & Seoul"
 name                     : "Joohee kim"
 description              : "쥬씨의 상경 & 성장 블로그입니다."
-url                      : "https://woolfiekim.github.io"
+url                      : "https://woolfie1101.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "woolfiekim/woolfiekim.github.io"
+repository               : "woolfie1101/woolfie1101.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/shrimp.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "woolfiekim"
+    shortname            : "woolfie1101"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -115,10 +115,10 @@ author:
       url: "mailto:woolfie@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://woolfiekim.github.io"
+      url: "https://woolfie1101.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/woolfiekim"
+      url: "https://github.com/woolfie1101"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/hobbyswishlist"
@@ -128,7 +128,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/woolfiekim"
+      url: "https://github.com/woolfie1101"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/hobbyswishlist"

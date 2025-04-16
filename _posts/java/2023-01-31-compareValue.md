@@ -22,7 +22,7 @@ search: true  #이 페이지는 검색에 나옴.
 
 이는 실제 값이 아니라 두 대상의 주소값을 비교한다.
 
-전에 올린 [자료형 게시글](https://woolfiekim.github.io/java/type/)에서 primitive type에서 보통 쓰인다.
+전에 올린 [자료형 게시글](https://woolfie1101.github.io/java/type/)에서 primitive type에서 보통 쓰인다.
 
 ```java
 int a = 1;

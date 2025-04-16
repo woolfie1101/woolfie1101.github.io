@@ -93,9 +93,94 @@ search: true  #이 페이지는 검색에 나옴.
 
 ---
 
-## 📁 코드 & 참고 자료
+## 💻 핵심 코드 요약
 
-- 🔗 GitHub: [github 주소](https://github.com/woolfie1101/realworld-snippets/tree/main/python/excel-export-optimization)
+아래는 각 방식별로 데이터를 청크 단위로 나눠서 압축 파일로 내보내는 핵심 흐름이다.
+
+### 1. 🐢 `openpyxl` 방식 (약 7분)
+
+```python
+import openpyxl, zipfile, io
+
+CHUNK_SIZE = 100_000
+zip_buffer = io.BytesIO()
+zip_file = zipfile.ZipFile(zip_buffer, 'w')
+
+wb = openpyxl.Workbook()
+ws = wb.active
+ws.append(columns)
+
+for row in queryset:
+    ws.append(row)
+    row_count += 1
+
+    if row_count >= CHUNK_SIZE:
+        buffer = io.BytesIO()
+        wb.save(buffer)
+        zip_file.writestr(f"excel_{file_index:02d}.xlsx", buffer.getvalue())
+        # 새 워크북 초기화
+```
+
+### 2. ⚡ xlsxwriter 방식 (약 2분)
+
+```python
+import xlsxwriter, io
+
+current_buffer = io.BytesIO()
+workbook = xlsxwriter.Workbook(current_buffer, {'in_memory': True})
+worksheet = workbook.add_worksheet()
+
+for row in queryset:
+    worksheet.write_row(current_row, 0, row)
+    row_count += 1
+    current_row += 1
+
+    if row_count >= CHUNK_SIZE:
+        workbook.close()
+        zip_file.writestr(f"excel_{file_index:02d}.xlsx", current_buffer.getvalue())
+        # 새 워크북 초기화
+```
+
+### 3. 🚀 csv + zipfile 방식 (약 1분 내외)
+
+```python
+import csv, zipfile, io
+
+current_buffer = io.StringIO()
+writer = csv.writer(current_buffer)
+writer.writerow(columns)
+
+for row in queryset:
+    writer.writerow(row)
+    row_count += 1
+
+    if row_count >= CHUNK_SIZE:
+        zip_file.writestr(f"data_{file_index:02d}.csv", current_buffer.getvalue())
+        # 새 버퍼 초기화
+```
+
+### 4. 전체 소스 코드
+
+📂 전체 소스 코드는 GitHub에서 확인 가능
+
+- 🔗 GitHub: [github excel-export-optimization 주소](https://github.com/woolfie1101/realworld-snippets/tree/main/python/excel-export-optimization)
+
+---
+
+## 💡 보너스
+
+- `queryset`은 `.iterator()`로 받는 걸 추천 (`chunk_size`와 함께 사용)
+    - 이유는 **“메모리 효율”과 “성능”**에 직접적으로 큰 영향을 준다.
+    
+        - 내부적으로 cursor를 사용해서 일정한 크기만큼만 메모리에 올림
+        
+        - 루프 돌면서 한 번에 1000개씩만 가져오고, 처리되면 버림
+    
+            → 메모리 사용량 매우 낮음 + 대용량 처리에 적합
+
+    - .iterator()는 데이터 변경 없이 읽기만 할 때 사용하는 게 원칙
+
+- 파일 이름은 `file_index`로 자동 증가 (`:02d` → 두 자리 숫자)
 
 ---
 

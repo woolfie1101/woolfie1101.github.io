@@ -4,7 +4,7 @@ title:  "[ElasticSearch] Part 1 - 설치 + 기본 사용방법 03"
 categories:
   - db  #카테고리
 tag: [db, elasticsearch, fts] #태그
-last_modified_at : 2025/04/07
+last_modified_at : 2025/04/13
 toc: true  #오른쪽에 있는 목차
 toc_sticky: true #목차 고정
 author_profile: true  #왼쪽에 자기 소개란 프로필을 이 페이지에 들어갈때 끄는 기능

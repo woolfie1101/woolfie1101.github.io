@@ -15,7 +15,6 @@ search: true  #이 페이지는 검색에 나옴.
 
 ![이미지](/assets/images/2025/04/22/pytho.png)
 
-# 🐍 Python으로 Tableau 사용자 130,000명의 역할을 자동으로 변경한 이야기
 
 ## 💡 문제 상황
 

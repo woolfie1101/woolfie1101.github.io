@@ -1,3 +1,18 @@
+---
+layout: single
+title:  "[Python] Python으로 Tableau 사용자 130,000명의 역할을 자동으로 변경한 이야기"
+categories: 
+    - Python
+    - tableau  #카테고리
+tag: [python, tableau] #태그
+toc: true  #오른쪽에 있는 목차
+toc_sticky: true #목차 고정
+author_profile: true  #왼쪽에 자기 소개란 프로필을 이 페이지에 들어갈때 끄는 기능
+sidebar:
+    nav: "sidebar-category" #navigation.yml에 있는 docs를 뜻한다.
+search: true  #이 페이지는 검색에 나옴.
+---
+
 ![이미지](/assets/images/2025/04/22/pytho.png)
 
 # 🐍 Python으로 Tableau 사용자 130,000명의 역할을 자동으로 변경한 이야기

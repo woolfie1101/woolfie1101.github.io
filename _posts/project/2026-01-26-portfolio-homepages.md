@@ -13,7 +13,6 @@ sidebar:
 search: true
 ---
 
-포트폴리오 Homepages 섹션입니다. 데이터는 포트폴리오 저장소의 JSON에 직접 정의되어 있습니다.
 
 ![포트폴리오 Homepages](/assets/images/portfolio/aisyncclub.png)
 

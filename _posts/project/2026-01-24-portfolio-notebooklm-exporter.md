@@ -13,6 +13,9 @@ sidebar:
 search: true
 ---
 
+![NotebookLM Exporter](/assets/images/portfolio/notebooklm_exporter.png)
+
+
 Google NotebookLM의 인사이트를 PDF, Markdown 등 다양한 형식으로 즉시 저장할 수 있는 크롬 확장 프로그램입니다.
 - 링크: [https://chromewebstore.google.com/detail/notebooklm-exporter/nkdglgblompfaikoioecbimpbfincfea?hl=ko&utm_source=ext_sidebar](https://chromewebstore.google.com/detail/notebooklm-exporter/nkdglgblompfaikoioecbimpbfincfea?hl=ko&utm_source=ext_sidebar)
 

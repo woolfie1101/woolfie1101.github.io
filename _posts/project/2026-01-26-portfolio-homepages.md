@@ -14,7 +14,6 @@ search: true
 ---
 
 
-![포트폴리오 Homepages](/assets/images/portfolio/aisyncclub.png)
 
 ### AI 올인원 홍보물 자동 생성기
 회사나 포트폴리오 기업의 기본 정보만 입력하면, AI가 포스터, 배너, 브로슈어, Instagram/Facebook/LinkedIn SNS 콘텐츠를 자동으로 디자인.

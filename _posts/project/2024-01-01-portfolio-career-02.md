@@ -13,7 +13,6 @@ sidebar:
 search: true
 ---
 
-![Sailingworks](/assets/images/portfolio/aisyncclub.png)
 
 포트폴리오 `resume.json`의 경력 프로젝트 데이터로 정리한 실제 작업 기록입니다.
 

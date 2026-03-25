@@ -1,10 +1,11 @@
 ---
 layout: single
 title:  "[포트폴리오] A2A Dashboard Generator"
+date: 2025-07-01
 categories:
   - project
 tag: ["AI Agent", "RAG", "Automation"]
-last_modified_at : 2026/01/24
+last_modified_at : 2025/07/01
 toc: true
 toc_sticky: true
 author_profile: true

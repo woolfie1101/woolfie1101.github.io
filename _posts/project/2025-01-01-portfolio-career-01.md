@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[경력기록] LG HS 마케팅 데이터 관리 웹 유지보수"
+title:  "[경력기록] LG 로고 HS 마케팅 데이터 관리 웹 유지보수"
 categories:
   - project
 tag: ["Django", "Python", "JavaScript", "jQuery", "PostgreSQL", "SQLite"]
@@ -25,7 +25,7 @@ search: true
 
 ## 세부 수행 내용
 
-- LG HS 마케팅 데이터 관리 웹 애플리케이션 유지보수 및 개선
+- LG 로고 HS 마케팅 데이터 관리 웹 애플리케이션 유지보수 및 개선
 - PostgreSQL, SQLite 및 Airflow를 사용한 워크플로우 자동화 관리
 
 ## 사용 기술

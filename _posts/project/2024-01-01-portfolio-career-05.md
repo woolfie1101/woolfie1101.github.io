@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[경력기록] LG D2C 데이터 인사이트"
+title:  "[경력기록] LG 로고 D2C 데이터 인사이트"
 categories:
   - project
 tag: ["Spring", "JavaScript", "HTML", "jQuery"]

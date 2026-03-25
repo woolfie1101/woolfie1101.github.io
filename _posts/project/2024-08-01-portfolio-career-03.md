@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[경력기록] LG OneData 웹 개발"
+title:  "[경력기록] LG 로고 OneData 웹 개발"
 categories:
   - project
 tag: ["Spring Boot", "React"]
@@ -24,7 +24,7 @@ search: true
 
 ## 세부 수행 내용
 
-- LG를 위한 데이터 관리 웹 애플리케이션 구축, 프론트엔드 개발에 중점
+- LG 로고를 위한 데이터 관리 웹 애플리케이션 구축, 프론트엔드 개발에 중점
 
 ## 사용 기술
 

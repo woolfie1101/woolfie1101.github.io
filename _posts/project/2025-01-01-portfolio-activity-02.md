@@ -4,7 +4,8 @@ title:  "[포트폴리오] n8n 자동화 마스터 클래스 강의"
 categories:
   - project
 tag: ["Lecture", "n8n", "Automation"]
-last_modified_at : 2025/01/01
+date: 2026-01-01
+last_modified_at : 2026/01/01
 toc: true
 toc_sticky: true
 author_profile: true
@@ -17,7 +18,7 @@ search: true
 
 포트폴리오 `activities.json`에서 발췌한 실제 활동 기록입니다.
 
-- 날짜: 2025-01
+- 날짜: 2026-01
 - 분류: Lecture, n8n, Automation
 - 링크:
 

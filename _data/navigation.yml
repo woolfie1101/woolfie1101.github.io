@@ -4,6 +4,8 @@ main:
     url: /categories/  #카테고리
   - title: "Tags"
     url: /tags/   #태그
+  - title: "Resume"
+    url: /resume/
   - title: "Search"
     url: /search   #검색
 
